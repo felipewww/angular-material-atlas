@@ -1,0 +1,26 @@
+mat-toolbar {
+  position: fixed;
+  top: 0;
+  left: 0;
+  background-color: #FFFFFF;
+  box-shadow: 0 0 5px 0 rgba(0, 0, 0, 0.22);
+  height: 65px;
+  padding-left: 293px;
+  z-index: 3;
+}
+
+.box {
+  padding-left: 80px;
+  width: 80%;
+  display: block;
+}
+
+div#user {
+  float: right;
+  font-size: 14px;
+}
+
+div#user span {
+  color: #4a4a4a;
+  margin-left: 15px;
+}

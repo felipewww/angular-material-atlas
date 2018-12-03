@@ -1,1 +1,51 @@
+@import '~@angular/material/prebuilt-themes/deeppurple-amber.css';
+/*@import "~bootstrap/dist/css/bootstrap.css";*/
+@import "assets/fonts/GilroyExtraBold/Webfonts/stylesheet.css";
+@import "assets/icomoon/style.css";
+@import "~font-awesome/css/font-awesome.css";
+@import url('https://fonts.googleapis.com/css?family=Roboto:400,500');
+
+/*@include mat-core();*/
+
 /* You can add global styles to this file, and also import other style files */
+body {
+  margin: 0;
+  font-family: 'Roboto', sans-serif;
+  font-size: 14px;
+  color: #3C3C3C;
+  background-color: #edf3f0;
+}
+
+.mat-drawer-side {
+  border: none;
+}
+
+app-card-content {
+  width: 100%;
+}
+
+.mat-grid-tile .mat-figure{
+  display: block !important;
+  /*background-color: red;*/
+}
+
+mat-drawer-container {
+  background-color: #edf3f0 !important;
+}
+
+mat-grid-tile figure {
+  padding: 0 2px !important;
+}
+
+.clearfix {
+  clear: both !important;
+  width: 0 !important;
+  height: 0 !important;
+  padding: 0 !important;
+  margin: 0 !important;
+  display: block !important;
+}
+
+.mat-drawer-inner-container {
+  overflow: initial !important;
+}

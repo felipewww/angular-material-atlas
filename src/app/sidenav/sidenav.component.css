@@ -1,0 +1,25 @@
+.button {
+  font-weight: 400;
+  background-color: #FFFFFF;
+  border-radius: 50px;
+  box-shadow: 0 0 20px 0 rgba(0, 0, 0, 0.3);
+  width: 253px;
+  height: 40px;
+  color: #00A685;
+  line-height: 39px;
+  font-family: roboto, sans-serif;
+  cursor: pointer;
+}
+
+.button i {
+  margin: 0 25px;
+}
+
+img.logo {
+  display: block;
+  margin: 0 auto;
+  margin-bottom: 20px;
+  border-bottom: 1px solid rgba(255, 255, 255, 0.25);
+  padding: 0 65px;
+  padding-bottom: 8px;
+}
