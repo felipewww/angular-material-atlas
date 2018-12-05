@@ -7,7 +7,7 @@
 
     <div class="table-search-box" style="width: 50%; float: right">
       <div class="search-box">
-        <input type="text" placeholder="Digite qualquer coisa da tabela">
+        <input #searcher type="text" placeholder="Digite qualquer coisa da tabela">
         <div class="search-button">
           <i class="icon-search"></i>
         </div>
@@ -19,7 +19,7 @@
 
   <div style="width: 100%">
     <app-card-content [title]="'Distribuição de lucro (último mês)'">
-      <app-datatable></app-datatable>
+      <app-datatable [searcher]="searcher"></app-datatable>
     </app-card-content>
   </div>
 </div>
