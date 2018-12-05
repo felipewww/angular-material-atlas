@@ -49,3 +49,8 @@ mat-grid-tile figure {
 .mat-drawer-inner-container {
   overflow: initial !important;
 }
+
+tbody {
+  background-color: #F8F8F8 !important;
+  box-shadow: 0 2px 2px 0 rgba(0, 0, 0, 0.24), 0 0 2px 0 rgba(0, 0, 0, 0.12) !important;
+}

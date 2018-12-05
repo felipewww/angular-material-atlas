@@ -34,3 +34,8 @@ app-footer {
 .mat-drawer-container {
   background-color: #edf3f0;
 }
+
+div.footer {
+  position: relative;
+  z-index: 2;
+}

@@ -5,12 +5,13 @@ mat-card {
   box-sizing: border-box;
   border-radius: 6px;
   box-shadow: 0 2px 2px 0 rgba(0, 0, 0, 0.24), 0 0 2px 0 rgba(0, 0, 0, 0.12) !important;
-  padding-top: 25px;
-  padding-bottom: 45px;
+  padding: 25px;
+  padding-bottom: 65px;
 }
 
 h1 {
   font-family: Roboto, sans-serif;
-  font-weight: 400;
+  font-weight: 500;
   font-size: 20px;
+  margin-bottom: 25px;
 }

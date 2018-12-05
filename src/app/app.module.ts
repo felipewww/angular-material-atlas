@@ -11,6 +11,7 @@ import { TitleComponent } from './title/title.component';
 import { CardContentComponent } from './card-content/card-content.component';
 import { SidenavComponent } from './sidenav/sidenav.component';
 import { FooterComponent } from './footer/footer.component';
+import { DatatableComponent } from './datatable/datatable.component';
 
 @NgModule({
   declarations: [
@@ -20,7 +21,8 @@ import { FooterComponent } from './footer/footer.component';
     TitleComponent,
     CardContentComponent,
     SidenavComponent,
-    FooterComponent
+    FooterComponent,
+    DatatableComponent
   ],
   imports: [
     BrowserModule,

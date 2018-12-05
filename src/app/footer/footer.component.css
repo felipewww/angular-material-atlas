@@ -5,11 +5,11 @@
   border-top: 1px solid rgba(0,0,0,0.1);
 }
 
-span.social {
+div.social {
   float: right;
 }
 
-span.social a {
+div.social a {
   margin-left: 25px;
   font-size: 16px;
   text-decoration: none;

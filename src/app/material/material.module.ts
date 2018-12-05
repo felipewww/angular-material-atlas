@@ -1,6 +1,6 @@
 import { NgModule } from '@angular/core';
 import { CommonModule } from '@angular/common';
-import {MatCardModule, MatDrawer, MatGridListModule, MatSidenavModule, MatToolbarModule} from '@angular/material';
+import {MatCardModule, MatDrawer, MatGridListModule, MatSidenavModule, MatTableModule, MatToolbarModule} from '@angular/material';
 
 @NgModule({
   declarations: [],
@@ -9,6 +9,7 @@ import {MatCardModule, MatDrawer, MatGridListModule, MatSidenavModule, MatToolba
     MatSidenavModule,
     MatGridListModule,
     MatCardModule,
+    MatTableModule,
     CommonModule
   ],
   exports: [
@@ -16,6 +17,7 @@ import {MatCardModule, MatDrawer, MatGridListModule, MatSidenavModule, MatToolba
     MatSidenavModule,
     MatGridListModule,
     MatCardModule,
+    MatTableModule,
     CommonModule
   ],
 })
