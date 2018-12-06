@@ -22,13 +22,12 @@ import { DatatableComponent } from './datatable/datatable.component';
     CardContentComponent,
     SidenavComponent,
     FooterComponent,
-    DatatableComponent
+    DatatableComponent,
   ],
   imports: [
     BrowserModule,
     AppRoutingModule,
     MaterialModule,
-    // NgbModule,
     BrowserAnimationsModule
   ],
   entryComponents: [
@@ -36,7 +35,6 @@ import { DatatableComponent } from './datatable/datatable.component';
   providers: [],
   bootstrap: [
     AppComponent,
-    // MatDrawer
   ]
 })
 export class AppModule { }

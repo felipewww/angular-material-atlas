@@ -11,3 +11,7 @@ tbody {
 th.mat-header-cell {
   background: #fff;
 }
+
+th.mat-sort-header-sorted {
+  color: black;
+}
