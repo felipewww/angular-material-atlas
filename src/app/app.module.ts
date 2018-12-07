@@ -12,6 +12,7 @@ import { CardContentComponent } from './card-content/card-content.component';
 import { SidenavComponent } from './sidenav/sidenav.component';
 import { FooterComponent } from './footer/footer.component';
 import { DatatableComponent } from './datatable/datatable.component';
+import {HttpModule} from '@angular/http';
 
 @NgModule({
   declarations: [
@@ -25,6 +26,7 @@ import { DatatableComponent } from './datatable/datatable.component';
     DatatableComponent,
   ],
   imports: [
+    HttpModule,
     BrowserModule,
     AppRoutingModule,
     MaterialModule,

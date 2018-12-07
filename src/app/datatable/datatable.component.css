@@ -15,3 +15,13 @@ th.mat-header-cell {
 th.mat-sort-header-sorted {
   color: black;
 }
+
+td.mat-cell.cdk-column-balance.mat-column-balance.ng-star-inserted {
+    width: 180px;
+}
+
+td.mat-cell {
+    color: rgba(0, 0, 0, 0.8700000047683716);
+    font-family: roboto, sans-serif;
+    font-size: 13px;
+}
