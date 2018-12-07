@@ -1,12 +1,9 @@
-import {Component, Inject, Injectable, Input, OnInit, ViewChild} from '@angular/core';
+import {Component, Input, OnInit, ViewChild} from '@angular/core';
 import {MatPaginator, MatPaginatorIntl, MatSort, MatTableDataSource} from '@angular/material';
-import {MovimentService} from '../services/moviment.service';
-import {MovimentsModel} from '../services/Moviments.model';
-import {BehaviorSubject, Observable} from 'rxjs';
+import {MovimentService} from '../../../services/moviment.service';
+import {MovimentsModel} from '../../../services/Moviments.model';
+import {Observable} from 'rxjs';
 
-@Injectable({
-    providedIn: 'root'
-})
 export class PaginatorIntlService extends MatPaginatorIntl {
     itemsPerPageLabel = 'Itens por página';
     nextPageLabel     = 'Próxima';
